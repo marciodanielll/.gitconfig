@@ -1,1 +1,2 @@
-# my_cofing_git
+## My .gitconfig
+😼
