@@ -1,0 +1,29 @@
+[user]
+name = Márcio Daniel
+email = marcio.daniel@msn.com
+[core]
+editor = code --wait
+[init]
+defaultBranch = main
+[alias]
+s = !git status -s
+l = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+ac-m = !git add --all && git commit -m
+c-m = !git commit -m
+a = !git add
+c-a = git commit --amend
+ps = !git push
+pl = !git pull
+f = !git fetch
+b = !git branch
+sw = !git switch
+gm = !git merge
+ch = !git checkout
+ch-b = !git checkout -b
+rs = !git reset
+rs-h = !git reset --hard
+rv = !git revert
+rv-h = !git revert --hard
+d = !git diff
+rm-c = !git rm --cached # remove only file or dir
+rm-c-f = !git rm -r --cached  # remove all repo
