@@ -5,6 +5,5 @@ email = marcio.daniel@msn.com
 editor = code --wait
 [init]
 defaultBranch = main
-[alias]
-myLog = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-empty = !git commit --allow-empty -m 
+[pager]
+	branch = more
